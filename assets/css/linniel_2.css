@@ -79,10 +79,10 @@
 ====================================================== */
 
 .kutipan{
-    background-color: rgba(245, 241, 241, 0.438);
+    background-color: rgba(0, 0, 0, 0.781);
     border-radius: 20px;
     backdrop-filter:blur(1px);
-    border: solid 2px black;
+    border: solid 2px rgb(253, 252, 252);
 }
 .kutipan_2{
     font-size: 22px;
@@ -91,7 +91,7 @@
     font-weight: bolder;
 }
 .ayat{
-    color:var(--color-primary) !important;
+    color:var(--color-secondary) !important;
     margin-bottom:15px;
     filter: drop-shadow(2px 1px 4px rgb(255, 255, 255));
     font-family: "Caramel", cursive;
