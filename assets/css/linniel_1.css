@@ -135,7 +135,8 @@
 
 #guestName{
 
-    font-size:1.2rem;
+    font-family: "Quicksand", sans-serif;
+    font-size: 16px;
     color:var(--color-secondary);
     filter: drop-shadow(2px 4px 4px black);
     margin-bottom:35px;
