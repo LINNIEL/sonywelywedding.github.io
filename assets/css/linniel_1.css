@@ -1,0 +1,217 @@
+/* ======================================================
+   LINNIEL 1
+   COVER
+====================================================== */
+
+#linniel_1{
+
+    position:fixed;
+    top:0;
+    left:50%;
+    transform:translateX(-50%);
+    width:100%;
+    max-width:400px;
+    height:100vh;
+    z-index:9999;
+
+}
+
+
+
+/* ======================================================
+   OVERLAY
+====================================================== */
+
+#linniel_1::before{
+
+    content:"";
+
+    position:absolute;
+
+    inset:0;
+
+    background-image: var(--background-main);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    z-index:1;
+
+    pointer-events:none;
+
+}
+
+
+
+/* ======================================================
+   CONTENT
+====================================================== */
+
+#linniel_1 .container-fluid{
+
+    position:relative;
+
+    z-index:2;
+
+    height:100%;
+
+}
+
+
+
+/* ======================================================
+   TEXT
+====================================================== */
+
+.opening-text{
+
+    font-size:var(--fs-small);
+    letter-spacing: 2px;
+    color:var(--color-secondary);
+    margin-bottom:15px;
+    filter: drop-shadow(2px 2px 4px white);
+
+}
+
+.cover-jdwl{
+    font-size: 16px;
+    letter-spacing: 4px;
+    color: var(--color-secondary);
+    line-height: 0.2;
+}
+
+.couple-name{
+    font-family: "Mea Culpa", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size:70px;
+    color:var(--color-secondary);
+    line-height:0.2;
+    margin-bottom:40px;
+    white-space: nowrap;
+    filter: drop-shadow(2px 2px 4px rgb(0, 0, 0));
+}
+
+#openInvitation {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    background: var(--color-primary);
+    color: #fcfffc;
+    border: 2px solid white;
+    border-radius: 50px;
+    padding: 5px 30px;
+    font-size: 1rem;
+    font-weight: 600;
+    transition: var(--transition);
+}
+
+#openInvitation .icon {
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+    margin-right: 10px;
+}
+
+
+
+.couple-name span{
+    display:block;
+    font-size:2rem;
+    margin:10px 0;
+}
+
+
+
+.guest-title{
+    font-size:var(--fs-small);
+    letter-spacing:2px;
+    text-transform:uppercase;
+    margin-bottom:12px;
+}
+
+
+
+#guestName{
+
+    font-size:1.6rem;
+    color:var(--color-secondary);
+    filter: drop-shadow(2px 4px 4px black);
+    margin-bottom:35px;
+    word-break:break-word;
+    padding:0 20px;
+
+}
+
+
+
+/* ======================================================
+   BUTTON
+====================================================== */
+
+#openInvitation{
+
+    background: white;
+
+    color:#020202;
+
+    border:none;
+
+    border-radius:50px;
+
+    padding:5px 40px;
+
+    font-size:1rem;
+
+    font-weight:600;
+
+    transition:var(--transition);
+    border: 2px solid rgb(3, 3, 3);
+
+}
+
+
+
+#openInvitation:hover{
+
+    transform:translateY(-3px);
+
+    box-shadow:var(--shadow);
+
+}
+
+
+
+#openInvitation:active{
+
+    transform:scale(.96);
+
+}
+.bawah{
+
+    margin-bottom:50px;
+
+}
+
+
+
+/* ======================================================
+   MOBILE
+====================================================== */
+
+@media (max-width:400px){
+
+    .couple-name{
+
+        font-size:2.4rem;
+
+    }
+
+    #guestName{
+
+        font-size:1.35rem;
+
+    }
+
+}

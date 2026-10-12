@@ -1,0 +1,84 @@
+
+#linniel_4{
+
+    position:relative;
+    width:100%;
+    min-height:100vh;
+    display:flex;
+    overflow:hidden;
+
+}
+.jadwal_img{
+    width: 300px;
+    filter: drop-shadow(2px 4px 2px rgb(2, 2, 2));
+}
+#linniel_4 .col-12{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+}
+.jadwal{
+    filter: drop-shadow(1px 2px 2px rgb(10, 10, 10));
+}
+/* ==========================================
+   JADWAL WRAPPER
+========================================== */
+
+.jadwal-wrapper{
+
+    width:100%;
+
+    padding:25px;
+
+    border-radius:20px;
+
+    background:rgba(255,255,255,.12);
+    backdrop-filter:blur(1px);
+    -webkit-backdrop-filter:blur(1px);
+
+    border:1px solid rgba(8, 8, 8, 0.979);
+
+    box-shadow:
+        0 8px 32px rgba(0,0,0,.18);
+
+}
+.jadwal p{
+
+    display:flex;
+    justify-content:flex-start;
+    align-items: start;
+    gap:8px;
+    margin-bottom: 12px;
+    font-family: "Quicksand", sans-serif;
+    font-size: 12px;
+    color: white;
+
+}
+
+.btn_maps{
+    background-color: white;
+    color: black;
+    padding: 5px 40px;
+    border: 1px solid black;
+}
+
+.icon{
+
+    width:22px;
+
+    height:22px;
+
+    object-fit:contain;
+
+    flex-shrink:0;
+
+}
+.jdwl{
+    filter: drop-shadow(2px 2px 2px black);
+    font-family: "Quicksand", sans-serif;
+    font-size: 24px;
+    color: var(--color-secondary);
+}
